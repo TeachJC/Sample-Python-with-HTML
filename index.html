@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sample Pyscript </title>
+    <!-- Pyscript CDN -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+</head>
+<body>
+
+    <!-- <py-script>
+        from pyscript import display #importting the display module
+
+        print('Hello Earth') #will be displayed  in the console
+        display('Hello Earth') #will be shown in the webpage
+    </py-script> -->
+    <input type="text" id="data1" placeholder="Enter your name"><br>
+    <button type="submit" py-click="greeting_user">Submit</button>
+        <div id="output" style="border: 1px solid black;"></div>
+    <script src="main.py" type="py"></script>
+
+</body>
+</html>
